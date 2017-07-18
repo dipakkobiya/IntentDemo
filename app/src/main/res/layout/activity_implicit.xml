@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    tools:context="com.task.demo.intent.demo.ImplicitActivity">
+
+
+    <LinearLayout
+        android:padding="15dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name Here"
+            android:textColorHighlight="#e70505"
+
+            />
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_marginTop="20dp"
+            android:textColor="#ec0505"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:layout_width="200dp"
+            android:layout_height="60dp" />
+    </LinearLayout>
+</LinearLayout>

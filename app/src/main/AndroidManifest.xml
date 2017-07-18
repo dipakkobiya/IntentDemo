@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.task.demo">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".intent.demo.IntentDemoActivity" />
+        <activity android:name=".toolbar.demo.ToolbarDemoActivity" />
+        <activity android:name=".radiobutton.demo.RadioButtonDemoActivity" />
+        <activity android:name=".checkbox.demo.CheckBoxDemoActivity" />
+        <activity android:name=".intent.demo.ImplicitActivity" />
+        <activity android:name=".intent.demo.ExplicitActivity" />
+        <activity android:name=".intent.demo.DisplayOutputActivity" />
+        <activity android:name=".intent.demo.ExplicitCallActivity" />
+        <activity android:name=".intent.demo.IntentTypeActivity" />
+        <activity android:name=".toolbar.demo.ToolbarHomeActivity" />
+        <activity android:name=".toolbar.demo.ToolbarBackArrowActivity" />
+        <activity android:name=".toolbar.demo.ToolbarOptionMenuActivity" />
+        <activity android:name=".toolbar.demo.MyPageActivity" />
+        <activity android:name=".IncrementValueBy1Activity" />
+        <activity android:name=".toolbar.demo.RegistrationPageValidationActivity" />
+        <activity android:name=".CardViewDemoActivity" />
+        <activity android:name=".NavigationDrawerActivity" />
+        <activity android:name=".CheckBoxDayActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeee"
+    android:orientation="vertical"
+    tools:context="com.task.demo.toolbar.demo.ToolbarDemoActivity">
+
+    <include layout="@layout/app_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnToolbarHome"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Toolbar Home"
+            android:textAllCaps="false"
+            android:textColor="#ec0505"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnToolbarArrow"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Toolbar BackArrow "
+            android:textAllCaps="false"
+            android:textColor="#ec0505"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnToolbarMenu"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Toolbar Option Menu"
+            android:textAllCaps="false"
+            android:textColor="#ec0505"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</LinearLayout>

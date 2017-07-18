@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.task.demo.intent.demo.ExplicitActivity">
+    <include layout="@layout/app_bar"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:background="@drawable/contactus"
+            android:id="@+id/btnCall"
+            android:layout_marginTop="20dp"
+            android:textColor="#ec0505"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <Button
+            android:background="@drawable/sharing"
+            android:id="@+id/btnShareApp"
+            android:layout_marginTop="20dp"
+            android:textColor="#ec0505"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <Button
+            android:background="@drawable/rate"
+            android:id="@+id/btnRateApp"
+            android:layout_marginTop="20dp"
+            android:textColor="#ec0505"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
